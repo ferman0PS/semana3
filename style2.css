@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #9dc1e5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.destaque {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.texto-claro {
+    color: #d6d6d6;
+}
+
+.lista-tech {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-tech li {
+    background-color: rgba(255, 255, 255, 0.08);
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+}
+
+.lista-tech li::before {
+    content: "♣️ ";
+}
+
+.descricao {
+    margin-top: 20px;
+    font-size: 16px;
+}
